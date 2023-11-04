@@ -1,0 +1,29 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>FormController</servlet-name>
+  	<display-name>FormController</display-name>
+  	<description></description>
+  	<servlet-class>com.app.web.FormController</servlet-class>
+  </servlet>
+ 
+  <servlet>
+  	<servlet-name>NextController</servlet-name>
+  	<display-name>NextController</display-name>
+  	<description></description>
+  	<servlet-class>com.app.web.NextController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FormController</servlet-name>
+  	<url-pattern>/form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>NextController</servlet-name>
+  	<url-pattern>/next</url-pattern>
+  </servlet-mapping>
+</web-app>
